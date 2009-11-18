@@ -1,25 +1,43 @@
 h1. HTML5 Project Skeleton
+
 h2. A set of HTML5 templates, CSS files, scripts, and project folder defaults
 
-A set of simple templates, CSS styles and default project folders from Outer Banks Design Works similar to the one used to kickstart every website project. It sets up some default folders and provides rudimentary CSS styles to get you started.
+A set of simple templates, CSS styles and default project folders from "Outer Banks Design Works":http://obxdesignworks.com/ just like the ones we use to kickstart every website design project. It sets up some sensible default folders and provides rudimentary CSS styles to get you started.
 
 h2. What's in the box?
 
-* Default folders:
-** /css
-** /img
-** /js
-* Default Templates:
-** /index.html
-* Default CSS files:
-** /css/ie.6.css
-** /css/ie.7.css
-** /css/master.css
-** /css/print.css
-** /css/reset.css
-** /css/styles.css
-* Default JavaScript:
-** /js/application.js
+*Default folders:*
+
+<pre>
+|--/css
+|--/img
+`--/js
+</pre>
+
+*Default Templates:*
+
+<pre>
+`--/index.html
+</pre>
+
+*Default CSS files:*
+
+<pre>
+`--/css
+   |--/ie.6.css
+   |--/ie.7.css
+   |--/master.css
+   |--/print.css
+   |--/reset.css
+   `--/styles.css
+</pre>
+
+*Default JavaScript:*
+
+<pre>
+`--/js
+   `--/application.js
+</pre>
 
 h2. How to use the standard grid system
 
