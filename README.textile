@@ -8,36 +8,28 @@ h2. What's in the box?
 
 *Default folders:*
 
-<pre>
-|--/css
+pre. |--/css
 |--/img
 `--/js
-</pre>
 
 *Default Templates:*
 
-<pre>
-`--/index.html
-</pre>
+pre. `--/index.html
 
 *Default CSS files:*
 
-<pre>
-`--/css
+pre. `--/css
    |--/ie.6.css
    |--/ie.7.css
    |--/master.css
    |--/print.css
    |--/reset.css
    `--/styles.css
-</pre>
 
 *Default JavaScript:*
 
-<pre>
-`--/js
+pre. `--/js
    `--/application.js
-</pre>
 
 h2. How to use the standard grid system
 
@@ -45,8 +37,7 @@ This project starts off with a 940px wide layout using 12 columns at 60px each a
 
 The CSS utilizes a technique that is somewhat loosely based on Dan Cederholm's modular floats concept. You define the containers (.section) for your content (.sub-section) in the markup and provide a width on the element in the CSS based on the element's ID:
 
-<pre>
-HTML:
+pre. *HTML:*
 <body id="home">
   <!-- top -->
   <section class="section" id="top">
@@ -56,10 +47,8 @@ HTML:
     </header>
     <!-- /header -->
 
-CSS:
+*CSS:*
 #header {
- margin-right: 0;/*explicitly remove right margins on elements that are full width*/
  width: 940px;
 }
-</pre>
 
