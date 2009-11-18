@@ -1,0 +1,11 @@
+# ======================================================================
+# .gitignore
+# ======================================================================
+# Place references here to files or folders you want Git to ignore: 
+# http://www.kernel.org/pub/software/scm/git/docs/gitignore.html
+# ======================================================================
+# Mac users can ignore .DS_Store files
+.DS_Store
+
+# Always ignore cache directories
+cache/**/*
