@@ -35,9 +35,8 @@ This project starts us off with a grid that is:
 
 This is purely an assumption and there is absolutely nothing to stop you from using a different grid formula. The 940px gives us a decent median starting point.
 
-The CSS utilizes a technique that is somewhat loosely based on Dan Cederholm's modular floats concept. You define the containers (.section) for your content (.sub-section) in the markup and provide a width on the element in the CSS based on the element's ID:
+The CSS utilizes a technique that is loosely based on Dan Cederholm's modular floats <http://handcraftedcss.com/> concept. You define the containers (.section) for your content (.sub-section) in the markup and then provide a width on the element in the CSS based on that element's ID:
 
-<pre>
 HTML:
 <body id="home">
   <!-- top -->
@@ -53,6 +52,5 @@ CSS:
  margin-right: 0;/*explicitly remove right margins on elements that are full width*/
  width: 940px;
 }
-</pre>
 
 ======================================================================

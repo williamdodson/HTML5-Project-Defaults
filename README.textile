@@ -33,9 +33,15 @@ pre. `--/js
 
 h2. How to use the standard grid system
 
-This project starts off with a 940px wide layout using 12 columns at 60px each and 20px gutters between each column. This is purely an assumption; there is nothing to stop you from using a different grid formula. But 940px gives us a decent median starting point.
+This project starts us off with a grid that is:
 
-The CSS utilizes a technique that is somewhat loosely based on Dan Cederholm's modular floats concept. You define the containers (.section) for your content (.sub-section) in the markup and provide a width on the element in the CSS based on the element's ID:
+* 940px wide
+* Has 12 columns at 60px each
+* Has 20px gutters between each column
+
+This is purely an assumption and there is absolutely nothing to stop you from using a different grid formula. The 940px gives us a decent median starting point.
+
+The CSS utilizes a technique that is loosely based on Dan Cederholm's "modular floats":http://handcraftedcss.com/ concept. You define the containers (.section) for your content (.sub-section) in the markup and then provide a width on the element in the CSS based on that element's ID:
 
 pre. *HTML:*
 <body id="home">
