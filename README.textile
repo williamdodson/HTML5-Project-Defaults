@@ -47,7 +47,7 @@ pre. *HTML:*
     </header>
     <!-- /header -->
 
-*CSS:*
+pre. *CSS:*
 #header {
  width: 940px;
 }
