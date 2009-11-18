@@ -1,0 +1,17 @@
+/**
+ * Styles for Project Name
+ * 
+ * This file defines all of the main styles 
+ * for Project Name.
+ *
+ * @author William Dodson | Outer Banks Design Works <http://obxdesignworks.com>
+ * @copyright Copyright (c) 2010 Project name
+ * @date 2010-01-01
+ * @version 0.1.0
+ * @site Project Name (http://example.com/)
+ * @media screen
+ */
+/* import/hide stylesheets from IE/Mac \*/
+@import url('reset.css');
+@import url('master.css');
+/* end import/hide */

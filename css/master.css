@@ -1,0 +1,260 @@
+/**
+ * @section Master Screen Styles
+ * ======================================================================
+ */
+
+/**
+ * Colors used for Project Name
+ *
+ * @colordef #ff0000 (red)
+ */
+
+/**
+ * @subsection Base HTML and Typography
+ * ======================================================================
+ */
+body {
+ background: #ffffff;
+ color: #000000;
+ font: 100%/1.5em helvetica, arial, sans-serif;
+}
+
+/**
+ * @note HTML 5 tags: set this so we can use HTML 5 tags instead of DIVs
+ */
+article, aside, figure, footer, header, hgroup, nav, section {
+ display: block;
+ margin: 0;
+ padding: 0;
+}
+
+/*headings*/
+h1, h2, h3, h4, h5, h6 {
+ color: #999999;
+ font-weight: normal;
+ line-height: 1em;
+}
+h1 {
+ font-size: 3em;
+}
+h2 {
+ font-size: 2.5em;
+}
+h3 {
+ font-size: 1.5em;
+}
+h4 {
+ font-size: 1.2em;
+}
+h5 {
+ font-size: 1.2em;
+ font-weight: 900;
+}
+
+p, dl, ol, ul {
+ margin: 1.5em 0;
+}
+
+/*links*/
+a, a:link {
+ color: #3366ff;
+}
+a:visited {
+ color: #777777;
+}
+a:focus,
+a:hover {
+ color: #ff0000;
+}
+a:active {
+ color: #00ff00;
+}
+
+/*forms*/
+form, label, input, textarea, select, button {
+ font-family: helvetica, arial, sans-serif;
+}
+label {
+ cursor: pointer;
+}
+
+/*presentational*/
+em {
+ font-style: italic;
+}
+img, 
+object {
+ max-width: 100%;
+}
+img {
+ float: left;
+ margin: 0 20px 1.5em 0;
+}
+strong {
+ font-weight: 900;
+}
+
+code, pre {
+ font-family: 'anonymous pro', 'andale mono', 'courier new', courier, monospace;
+ letter-spacing: 0.1em;
+}
+
+/*misc*/
+hr {
+ display: none;
+}
+
+/**
+ * @subsection Classes and Overrides
+ * ======================================================================
+ */
+/*padded and rounded content sections*/
+.box {
+ background: #ccc;
+ border-radius: 1em;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+ padding: 1.5em 20px;
+}
+
+.center {
+ text-align: center;
+}
+.clear {
+ clear: both;
+}
+
+.right {
+ text-align: right;
+}
+
+.separate {
+ border-bottom: 1px solid #cccccc;
+ margin-bottom: 3em;
+ padding-bottom: 3em;
+}
+
+/**
+ * @note The grid pieces: .section classes are outer wraps for content blocks and sub-sections are the content blocks
+ * Remember to define widths for each .section based on it's ID (e.g. #article { width: 620px; })
+ */
+.section {
+ background: #ffffff;
+ margin: 0;
+ padding: 0;
+}
+.sub-section {
+ float: left;
+ margin: 0 20px 0 0;
+}
+
+/*clear floats*/
+.section:after,
+.sub-section:after {
+ content: '.';
+ display: block;
+ height: 0;
+ clear: both;
+ visibility: hidden;
+}
+
+/**
+ * @subsection Sections (Top, Content, Bottom)
+ * ======================================================================
+ */
+#top {
+ background: #ffffff;
+ border-bottom: 1px solid #dddddd;
+ margin: 0;
+ padding: 3em 0 0 0;
+ text-align: left;
+}
+#content {
+ background: #ffffff;
+ margin: 0;
+ min-height: 17.5em;
+ padding: 3em 0;
+ text-align: left;
+}
+#bottom {
+ background: #ffffff;
+ border-top: 1px solid #dddddd;
+ margin: 0;
+ padding: 3em 0;
+ text-align: left;
+}
+
+/**
+ * @subsection Header
+ * ======================================================================
+ */
+#header {
+ background: transparent;
+ margin: 0 auto 1.5em auto;
+ width: 940px;
+}
+  
+  /**
+   * @subsection Nav
+   * ======================================================================
+   */
+  #nav {
+   background: transparent;
+   margin: 0 auto;
+   width: 940px;
+  }
+  #nav #menu-main {
+   border-left: 1px solid #dddddd;
+   margin: 0;
+   padding-left: 10px;
+  }
+  #nav #menu-main li {
+   float: left;
+   margin: 0;
+   padding: 0;
+  }
+  #nav #menu-main li a {
+   border-right: 1px solid #dddddd;
+   display: block;
+   float: left;
+   font-weight: 900;
+   margin-right: 10px;
+   padding: 1.5em 10px 1.5em 0;
+  }
+
+/**
+ * @subsection Article
+ * ======================================================================
+ */
+#main {
+ margin: 0 auto;
+ width: 940px;
+}
+
+/**
+ * @subsection Article
+ * ======================================================================
+ */
+#article {
+ background: transparent;
+ width: 940px;
+}
+
+/**
+ * @subsection Overview
+ * ======================================================================
+ */
+#overview {
+ background: transparent;
+ width: 940px;
+}
+
+/**
+ * @subsection Footer
+ * ======================================================================
+ */
+#footer {
+ background: transparent;
+ margin: 0 auto 1.5em auto;
+ width: 940px;
+}

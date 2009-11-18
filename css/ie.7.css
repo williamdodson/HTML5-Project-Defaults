@@ -1,0 +1,10 @@
+/**
+ * @section IE 7 Styles
+ * ======================================================================
+ */
+*:first-child+html .section {
+ min-height: 1px;
+}
+*:first-child+html .sub-section {
+ min-height: 1px;
+}
