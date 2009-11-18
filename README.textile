@@ -1,32 +1,27 @@
---- HTML5 Project Skeleton
---- A set of HTML5 templates, CSS files, scripts, and project folder defaults
+h1. HTML5 Project Skeleton
+h2. A set of HTML5 templates, CSS files, scripts, and project folder defaults
 
 A set of simple templates, CSS styles and default project folders from Outer Banks Design Works similar to the one used to kickstart every website project. It sets up some default folders and provides rudimentary CSS styles to get you started.
-======================================================================
---- What's in the box?
 
-Default folders:
-|--/css
-|--/img
-`--/js
+h2. What's in the box?
 
-Default Templates:
-`--/index.html
+* Default folders:
+** /css
+** /img
+** /js
+* Default Templates:
+** /index.html
+* Default CSS files:
+** /css/ie.6.css
+** /css/ie.7.css
+** /css/master.css
+** /css/print.css
+** /css/reset.css
+** /css/styles.css
+* Default JavaScript:
+** /js/application.js
 
-Default CSS files:
-`--/css
-   |--/ie.6.css
-   |--/ie.7.css
-   |--/master.css
-   |--/print.css
-   |--/reset.css
-   `--/styles.css
-   
-Default JavaScript:
-`--/js
-   `--/application.js
-======================================================================
---- How to use the standard grid system
+h2. How to use the standard grid system
 
 This project starts off with a 940px wide layout using 12 columns at 60px each and 20px gutters between each column. This is purely an assumption; there is nothing to stop you from using a different grid formula. But 940px gives us a decent median starting point.
 
@@ -50,4 +45,3 @@ CSS:
 }
 </pre>
 
-======================================================================
