@@ -1,3 +1,6 @@
 [submodule "css/ie6"]
 	path = css/ie6
 	url = git@github.com:obxdesignworks/universal-ie6-css-redux.git
+[submodule "js/jquery"]
+	path = js/jquery
+	url = git://github.com/jquery/jquery.git
