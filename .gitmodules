@@ -1,0 +1,3 @@
+[submodule "css/ie6"]
+	path = css/ie6
+	url = git@github.com:obxdesignworks/universal-ie6-css-redux.git
