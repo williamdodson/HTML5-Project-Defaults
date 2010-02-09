@@ -19,7 +19,8 @@ pre. `--/index.html
 *Default CSS files:*
 
 pre. `--/css
-   |--/ie.6.css
+   |--/ie6
+   |  `--/ie.6.css
    |--/ie.7.css
    |--/master.css
    |--/print.css
@@ -29,7 +30,8 @@ pre. `--/css
 *Default JavaScript:*
 
 pre. `--/js
-   `--/application.js
+   |--/application.js
+   `--/jquery.js
 
 h2. How to use the standard grid system
 

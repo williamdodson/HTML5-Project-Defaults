@@ -15,7 +15,8 @@ Default Templates:
 
 Default CSS files:
 `--/css
-   |--/ie.6.css
+   |--/ie6
+   |  `--/ie.6.css
    |--/ie.7.css
    |--/master.css
    |--/print.css
@@ -24,7 +25,8 @@ Default CSS files:
    
 Default JavaScript:
 `--/js
-   `--/application.js
+   |--/application.js
+   `--/jquery.js
 ======================================================================
 --- How to use the standard grid system
 
