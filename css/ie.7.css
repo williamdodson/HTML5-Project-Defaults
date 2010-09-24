@@ -5,6 +5,6 @@
 *:first-child+html .section {
  min-height: 1px;
 }
-*:first-child+html .sub-section {
+*:first-child+html .subsection {
  min-height: 1px;
 }
